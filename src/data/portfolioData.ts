@@ -217,7 +217,7 @@ export const testimonials: Testimonial[] = [
       avatar: "/people/JamesLarios.png"
     },
     {
-      name: "Kenneth Galasao",
+      name: "Neil Balantac",
       role: "Full-Stack Developer",
       content: "Thanks to Luke, I finally understood how to build a responsive website from scratch. He explains things simply but effectively—perfect for someone just starting out.",
       avatar: "/people/KennethGalasao.png"
@@ -241,7 +241,7 @@ export const testimonials: Testimonial[] = [
       avatar: "/people/JimnoeriEnriquez.png"
     },
     {
-      name: "Jade Tragura",
+      name: "Arexzus Garganta",
       role: "Project Manager",
       content: "We worked together on a mini-game in JavaScript, and I learned more than I expected. Luke doesn't just give solutions—he makes sure you understand why it works.",
       avatar: "/people/JadeTragura.png"

@@ -56,13 +56,11 @@ function App() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
     console.log('Form submitted');
   };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100">
-      {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-md border-b border-gray-200 z-50 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
@@ -79,7 +77,6 @@ function App() {
               </span>
             </div>
 
-            {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8">
               {navItems.map((item) => (
                 <button
@@ -96,7 +93,6 @@ function App() {
               ))}
             </div>
 
-            {/* Mobile menu button */}
             <div className="md:hidden">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -107,7 +103,6 @@ function App() {
             </div>
           </div>
 
-          {/* Mobile Navigation */}
           {isMenuOpen && (
             <div className="md:hidden">
               <div className="px-2 pt-2 pb-3 space-y-1 bg-white/95 backdrop-blur-md rounded-lg mt-2 border border-gray-200 shadow-lg">
@@ -130,7 +125,6 @@ function App() {
         </div>
       </nav>
 
-      {/* Home Section */}
       <section id="home" className="pt-16 min-h-screen flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -185,29 +179,22 @@ function App() {
             </div>
 
             <AnimatedSection delay={600} className="relative">
-              <div className="w-full max-w-md mx-auto">
-                <div className="relative bg-white/60 backdrop-blur-lg rounded-2xl p-8 border border-gray-200 shadow-xl">
-                  <div className="w-48 h-48 mx-auto mb-6 bg-gradient-to-br from-gray-100 to-gray-200 rounded-full flex items-center justify-center">
-                    <div className="w-32 h-32 rounded-full overflow-hidden">
-                      <img
-                        src="/ProfilePhoto.png"
-                        alt="Profile Photo"
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                  </div>
-                  <div className="text-center">
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Available for fubo</h3>
-                    <p className="text-gray-600">Open to long-term relationships</p>
-                  </div>
-                </div>
+              <div className="w-full max-w-md mx-auto relative">
+                <div className="absolute -top-10 -left-10 w-32 h-32 bg-indigo-100 rounded-full z-0"></div>
+                <div className="absolute bottom-0 -right-10 w-20 h-20 bg-pink-100 rotate-12 rounded-lg z-0"></div>
+              <div className="relative z-10 overflow-hidden rounded-2xl shadow-2xl">
+                <img
+                  src="/ProfilePhoto.png"
+                  alt="Profile"
+                  className="w-full h-auto object-cover"
+                />
               </div>
-            </AnimatedSection>
+            </div>
+          </AnimatedSection>
           </div>
         </div>
       </section>
-
-      {/* Projects Section */}
+      
       <section id="projects" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center mb-16">
@@ -227,7 +214,6 @@ function App() {
         </div>
       </section>
 
-      {/* Accolades Section */}
       <section id="accolades" className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center mb-16">
@@ -243,7 +229,6 @@ function App() {
         </div>
       </section>
 
-      {/* Affiliations Section */}
       <section id="affiliations" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center mb-16">
@@ -263,7 +248,6 @@ function App() {
         </div>
       </section>
 
-      {/* Recommendations Section */}
       <section id="recommendations" className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center mb-16">
@@ -279,7 +263,6 @@ function App() {
         </div>
       </section>
 
-      {/* Contact Section */}
       <section id="contact" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center mb-16">
@@ -357,7 +340,6 @@ function App() {
             </form>
           </AnimatedSection>
 
-          {/* Contact Info */}
           <div className="grid md:grid-cols-3 gap-6 mt-16">
             <AnimatedSection delay={300} className="text-center">
               <div className="w-12 h-12 bg-gray-900 rounded-lg flex items-center justify-center mx-auto mb-4">
@@ -384,7 +366,6 @@ function App() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="bg-white border-t border-gray-200 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="flex items-center justify-center space-x-4">

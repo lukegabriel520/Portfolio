@@ -367,12 +367,6 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="flex items-center justify-center space-x-4">
             <div className="w-8 h-8 rounded-lg overflow-hidden flex items-center justify-center">
-              <img 
-                src="/LL_Logo.png" 
-                alt="Luke Lumakin Logo" 
-                className="w-full h-full object-contain"
-              />
-            </div>
             <span className="text-lg font-bold text-gray-900">
               {personalInfo.name}
             </span>

@@ -202,7 +202,7 @@ function App() {
               Featured Projects
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              A showcase of my latest works
+              My latest works
             </p>
           </AnimatedSection>
 
@@ -221,7 +221,7 @@ function App() {
               Accolades & Recognition
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Achievements and recognition received throughout my academic journey
+              Achievements received throughout my journey
             </p>
           </AnimatedSection>
 
@@ -236,7 +236,7 @@ function App() {
               Professional Affiliations
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Organizations and communities I'm actively involved with
+              Organizations I'm actively involved with
             </p>
           </AnimatedSection>
       
@@ -255,7 +255,7 @@ function App() {
               Recommendations
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              What colleagues and mentors say about working with me
+              What colleagues and peers say about working with me
             </p>
           </AnimatedSection>
 
@@ -270,7 +270,7 @@ function App() {
               Let's Connect
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Ready to collaborate on your next project or discuss opportunities
+              Ready to collaborate on your next project
             </p>
           </AnimatedSection>
 

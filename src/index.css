@@ -18,12 +18,10 @@
   }
 }
 
-/* Smooth scrolling for the entire page */
 html {
   scroll-behavior: smooth;
 }
 
-/* Focus styles for accessibility */
 button:focus-visible,
 input:focus-visible,
 textarea:focus-visible {
@@ -31,12 +29,10 @@ textarea:focus-visible {
   outline-offset: 2px;
 }
 
-/* Improved button hover effects */
 button {
   transition: all 0.2s ease-in-out;
 }
 
-/* Loading animation for images */
 img {
   transition: opacity 0.3s ease-in-out;
 }
@@ -45,7 +41,6 @@ img[src=""] {
   opacity: 0;
 }
 
-/* Backdrop blur fallback */
 @supports not (backdrop-filter: blur(12px)) {
   .backdrop-blur-sm {
     background-color: rgba(255, 255, 255, 0.8);

@@ -251,7 +251,7 @@ export const testimonials: Testimonial[] = [
 export const personalInfo = {
   name: "Luke Lumakin",
   role: "Software Engineer & AI/ML Engineer",
-  slogan: "If duplicated code is a sign of someone's lazy design, then what is empty code a sign of? I build real solutions, not hollow templates",
+  slogan: "If duplicated code is a sign of lazy design, of what, then, is empty code a sign of?",
   languages: ["Filipino", "English"],
   status: "Blockchain Intern",
   school: "Pamantasan ng Lungsod ng Maynila (PLM)",

@@ -212,46 +212,46 @@ export const affiliations: Affiliation[] = [
 export const testimonials: Testimonial[] = [
     {
       name: "James Larios",
-      role: "Junior Developer",
+      role: "Junior Java Developer",
       content: "When I got stuck debugging Python, Luke stepped in and explained each error clearly. His guidance helped me spot mistakes I didn't even know I was making.",
-      avatar: "/ProfilePhoto.png"
+      avatar: "/people/JamesLarios.png"
     },
     {
-      name: "Charles Chua",
+      name: "Kenneth Galasao",
       role: "Full-Stack Developer",
       content: "Thanks to Luke, I finally understood how to build a responsive website from scratch. He explains things simply but effectively—perfect for someone just starting out.",
-      avatar: "/ProfilePhoto.png"
+      avatar: "/people/KennethGalasao.png"
     },
     {
       name: "James Matienzo",
       role: "AI Enthusiast",
       content: "I've always been interested in AI, and Luke introduced me to ML in a way that made sense. He connects the dots between theory and code really well.",
-      avatar: "/ProfilePhoto.png"
+      avatar: "/people/JamesMatienzo.png"
     },
     {
       name: "Julius Miranda",
       role: "Aspiring AI/ML Engineer",
       content: "Explaining HTML and CSS isn't always easy, but Luke made it feel intuitive. His teaching style adapts to what you need, not just what the topic is.",
-      avatar: "/ProfilePhoto.png"
+      avatar: "/people/JuliusMiranda.png"
     },
     {
       name: "Jimnoeri Enriquez",
       role: "UI/UX Designer",
       content: "He introduced me to GitHub and taught me how to properly manage my code. What stood out was how patient he was even when I needed things repeated.",
-      avatar: "/ProfilePhoto.png"
+      avatar: "/people/JimnoeriEnriquez.png"
     },
     {
-      name: "Neil Balantac",
+      name: "Jade Tragura",
       role: "Project Manager",
       content: "We worked together on a mini-game in JavaScript, and I learned more than I expected. Luke doesn't just give solutions—he makes sure you understand why it works.",
-      avatar: "/ProfilePhoto.png"
+      avatar: "/people/JadeTragura.png"
     }
   ];
 
 export const personalInfo = {
   name: "Luke Lumakin",
   role: "Software Engineer & AI/ML Engineer",
-  slogan: "Tambay sa Ecotrend; mahilig magtwo-joints; fubo tayo; i heckin love matcha",
+  slogan: "If duplicated code is a sign of someone's lazy design, then what is empty code a sign of? I build real solutions, not hollow templates",
   languages: ["Filipino", "English"],
   status: "Blockchain Intern",
   school: "Pamantasan ng Lungsod ng Maynila (PLM)",

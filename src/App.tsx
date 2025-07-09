@@ -140,7 +140,7 @@ function App() {
                   {personalInfo.slogan}
                 </p>
               </AnimatedSection>
-
+      
               <AnimatedSection delay={200} className="grid grid-cols-2 gap-6 max-w-md">
                 <div className="bg-white/80 backdrop-blur-sm rounded-lg p-4 border border-gray-200 shadow-sm">
                   <h3 className="font-semibold text-gray-900">Languages</h3>
@@ -155,13 +155,27 @@ function App() {
                   <p className="text-gray-600">{personalInfo.school}</p>
                 </div>
               </AnimatedSection>
-
-              <AnimatedSection delay={400} className="flex space-x-4">
+            </div>
+      
+            <AnimatedSection delay={600} className="relative space-y-6">
+              <div className="w-full max-w-md mx-auto relative">
+                <div className="absolute -top-10 -left-10 w-32 h-32 bg-indigo-100 rounded-full z-0"></div>
+                <div className="absolute bottom-0 -right-10 w-20 h-20 bg-pink-100 rotate-12 rounded-lg z-0"></div>
+                <div className="relative z-10 overflow-hidden rounded-2xl shadow-2xl">
+                  <img
+                    src="/ProfilePhoto.png"
+                    alt="Profile"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+              </div>
+      
+              <div className="flex justify-center space-x-4 z-10">
                 <a
                   href={personalInfo.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center space-x-2 bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors shadow-md"
+                  className="flex items-center space-x-2 bg-white/80 backdrop-blur-sm border border-gray-200 text-gray-900 px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors shadow-sm"
                 >
                   <Github className="w-5 h-5" />
                   <span>GitHub</span>
@@ -170,27 +184,13 @@ function App() {
                   href={personalInfo.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center space-x-2 bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors shadow-md"
+                  className="flex items-center space-x-2 bg-white/80 backdrop-blur-sm border border-gray-200 text-gray-900 px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors shadow-sm"
                 >
                   <Linkedin className="w-5 h-5" />
                   <span>LinkedIn</span>
                 </a>
-              </AnimatedSection>
-            </div>
-
-            <AnimatedSection delay={600} className="relative">
-              <div className="w-full max-w-md mx-auto relative">
-                <div className="absolute -top-10 -left-10 w-32 h-32 bg-indigo-100 rounded-full z-0"></div>
-                <div className="absolute bottom-0 -right-10 w-20 h-20 bg-pink-100 rotate-12 rounded-lg z-0"></div>
-              <div className="relative z-10 overflow-hidden rounded-2xl shadow-2xl">
-                <img
-                  src="/ProfilePhoto.png"
-                  alt="Profile"
-                  className="w-full h-auto object-cover"
-                />
               </div>
-            </div>
-          </AnimatedSection>
+            </AnimatedSection>
           </div>
         </div>
       </section>

@@ -241,7 +241,7 @@ export const testimonials: Testimonial[] = [
       avatar: "/people/JimnoeriEnriquez.png"
     },
     {
-      name: "Arexzus Garganta",
+      name: "Charles Chua",
       role: "Project Manager",
       content: "We worked together on a mini-game in JavaScript, and I learned more than I expected. Luke doesn't just give solutions—he makes sure you understand why it works.",
       avatar: "/people/JadeTragura.png"

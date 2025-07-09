@@ -366,7 +366,7 @@ function App() {
       <footer className="bg-white border-t border-gray-200 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="flex items-center justify-center space-x-4">
-            <div className="w-8 h-8 rounded-lg overflow-hidden flex items-center justify-center">
+            <div className="w-8 h-8 rounded-lg overflow-hidden flex items-center justify-center"></div>
             <span className="text-lg font-bold text-gray-900">
               {personalInfo.name}
             </span>

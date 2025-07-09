@@ -72,9 +72,6 @@ function App() {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <span className="text-xl font-bold text-gray-900">
-                {personalInfo.name}
-              </span>
             </div>
 
             <div className="hidden md:flex space-x-8">
